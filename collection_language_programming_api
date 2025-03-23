@@ -1,0 +1,123 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "language_programming_api",
+    "collectionId": "88393713-53bf-4abf-b85f-f7dd577393bb",
+    "dateExported": "2025-03-23T15:06:53.610Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d2006b16-cc31-4c17-8211-e6bed114801a",
+            "colId": "88393713-53bf-4abf-b85f-f7dd577393bb",
+            "containerId": "",
+            "name": "Status",
+            "url": "http://localhost/language_programming_api/public/api/status",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-03-21T17:50:11.551Z",
+            "modified": "2025-03-23T12:53:18.642Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "afe69b78-9f44-44f6-bceb-fbec2430e1d6",
+            "colId": "88393713-53bf-4abf-b85f-f7dd577393bb",
+            "containerId": "",
+            "name": "All Languages",
+            "url": "http://localhost/language_programming_api/public/api/languages",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-03-21T18:40:27.717Z",
+            "modified": "2025-03-23T13:03:47.384Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "f2ea32f5-bc43-4177-bd98-4e4017f81c1e",
+            "colId": "88393713-53bf-4abf-b85f-f7dd577393bb",
+            "containerId": "",
+            "name": "Show Language by ID",
+            "url": "http://localhost/language_programming_api/public/api/showLanguage/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-03-21T18:41:36.933Z",
+            "modified": "2025-03-23T13:44:17.330Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        },
+        {
+            "_id": "fb80b7a3-52a0-47d6-b3ea-503903d6c09a",
+            "colId": "88393713-53bf-4abf-b85f-f7dd577393bb",
+            "containerId": "",
+            "name": "Add Language",
+            "url": "http://localhost/language_programming_api/public/api/addLanguage",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2025-03-21T18:45:16.238Z",
+            "modified": "2025-03-23T13:35:59.767Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"ola name\",\n  \"description\": \"ola desc\",\n  \"paradigm\": \"ola paradigm\",\n  \"image\": \"ola image\",\n  \"firstappeared\": \"ola first\" \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "02d9aca2-8107-4255-8106-ad987a115268",
+            "colId": "88393713-53bf-4abf-b85f-f7dd577393bb",
+            "containerId": "",
+            "name": "Update Language",
+            "url": "http://localhost/language_programming_api/public/api/updateLanguage/6",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2025-03-21T19:03:47.807Z",
+            "modified": "2025-03-23T13:53:54.251Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Smalltalk\",\n  \"description\": \"Any description\",\n  \"paradigm\": \"Oriented Object\",\n  \"image\": \"any image\",\n  \"firstappeared\": \"Since 1901\" \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a6cb882e-93cf-4071-a519-c791f4e14dca",
+            "colId": "88393713-53bf-4abf-b85f-f7dd577393bb",
+            "containerId": "",
+            "name": "Delete Language",
+            "url": "http://localhost/language_programming_api/public/api/deleteLanguage/5",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2025-03-23T15:04:03.080Z",
+            "modified": "2025-03-23T15:04:59.887Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        }
+    ],
+    "ref": "RkdniBo4qyCbHSmog8DS0gmbLMTVYwgdftjzY8K1IGK6UQOwnSkIEDxxRXTMXc_EeHbTGUqSwVI_HDDQZ3OCuw"
+}
