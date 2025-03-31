@@ -7,11 +7,11 @@ API project about language programming.
 Language programming is an API that allows you to register, update, list and delete records about languages of programming. Information such as name, description, paradigm, first appeared and image of a language are represented in the API. 
 
 # Types of fields represented in the API
-name - string
-description - string
-paradigm - string
-firstapeeared - string
-image - string
+name - string,
+description - string,
+paradigm - string,
+firstapeeared - string,
+image - string.
 
 # Routes list
 GET|HEAD  api/languages   
