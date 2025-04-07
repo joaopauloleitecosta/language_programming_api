@@ -1,5 +1,3 @@
-# Attention: Readme under construction
-
 # Language Programming API
 API project about language programming.
 
@@ -11,17 +9,17 @@ Language programming is an API that allows you to register, update, list and del
 #### Return the api's status
 
 ```http
-  GET  api/status
+  GET  api/{status}
 ```
 
 | Parameter   | Type       | Description                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| `id`      | `integer` | Return the status code of api |
+| `status`      | `string` | **Required**. Return the status code of api |
 
 #### Return all languages
 
 ```http
-  GET  api/languages
+  GET  api/{languages}
 ```
 
 | Parameter   | Type       | Description                           |
@@ -48,15 +46,15 @@ Language programming is an API that allows you to register, update, list and del
 | :---------- | :--------- | :------------------------------------------ |
 | `id`      | `integer` | **Required**. Language ID to update info |   
    
-#### Endpoint to add a language in form action
+#### Endpoint to add a language
 
 ```http
-  POST  api/addLanguage
+  POST  api/{addLanguage}
 ```
 
 | Parameter   | Type       | Description                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| `addLanguage`      | `string` | **Required**. Text to form action |    
+| `addLanguage`      | `string` | **Required**. Add a language |    
 
 #### Return a deleted message
 
